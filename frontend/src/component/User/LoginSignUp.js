@@ -17,7 +17,7 @@ const LoginSignUp = () => {
     const dispatch=useDispatch();
   const alert=useAlert()
 const location=useLocation()
- console.log(location)
+
   const {error,loading,isAuthenticated}=useSelector(state=>state.user)
 
     const [loginEmail, setLoginEmail] = useState("");
@@ -77,7 +77,7 @@ const location=useLocation()
  
   const redirect = location.search ? location.search.split("=")[1] : "/account";
 
-  console.log(redirect)
+
 
   useEffect(()=>{
     if(error){
