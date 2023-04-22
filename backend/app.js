@@ -7,6 +7,10 @@ const fileupload=require("express-fileupload")
 const dotenv=require("dotenv")
 const path=require("path");
 
+if(process.env.NODE_ENV){
+   dotenv.config()
+}
+
 if(process.env.NODE_ENV!=="PRODUCTION")
 {
    dotenv.config({path:"backend/config/config.env"})
@@ -33,10 +37,15 @@ app.use("/api/v1",user)
 app.use("/api/v1",order)
 app.use("/api/v1",payment)
 
-app.use(express.static(path.join(__dirname,"../frontend/build")))
-app.get("*",(req,res)=>{
-     res.sendFile(path.join(__dirname,"../frontend/build/index.html"))
-})
+if (process.env.NODE_ENV) {
+  //static folder add
+app.use(express.static(../frontend/build));
+app.get("*", function (req, res) {
+  // res.sendFile(path.resolve('client', 'build' , 'index.html'));
+  res.sendFile(path.resolve(__dirname , "../frontend/build/index.html"));
+});
+}
+
 // middleware for errors 
 app.use(errorMiddleware);
 
