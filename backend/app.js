@@ -7,7 +7,15 @@ const fileupload=require("express-fileupload")
 const dotenv=require("dotenv")
 const path=require("path");
 
-  dotenv.config({path:"backend/config/config.env"})
+if(process.env.NODE_ENV){
+   dotenv.config()
+}
+
+if(process.env.NODE_ENV!=="PRODUCTION")
+{
+   dotenv.config({path:"backend/config/config.env"})
+}
+ 
 
 
 app.use(express.json({
