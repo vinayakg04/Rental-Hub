@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.a6c35bb6.css",
-    "main.js": "/static/js/main.149347f1.js",
-    "static/media/mac.jpg": "/static/media/mac.a4219810bd98d56d9e11.jpg",
+    "main.css": "/static/css/main.9a259c22.css",
+    "main.js": "/static/js/main.e65696e7.js",
+    "static/media/wallpaper-renthub.png": "/static/media/wallpaper-renthub.f23b9819963e1aba3fc1.png",
+    "static/media/logo.png": "/static/media/logo.7cd73c68f745b0e53520.png",
     "static/media/Profile.png": "/static/media/Profile.697fdcd21f6d157b9073.png",
     "static/media/playstore.png": "/static/media/playstore.82b4831979e0ce7c733e.png",
     "static/media/Appstore.png": "/static/media/Appstore.d0c5839937e3c36285f6.png",
     "index.html": "/index.html",
-    "main.a6c35bb6.css.map": "/static/css/main.a6c35bb6.css.map",
-    "main.149347f1.js.map": "/static/js/main.149347f1.js.map"
+    "main.9a259c22.css.map": "/static/css/main.9a259c22.css.map",
+    "main.e65696e7.js.map": "/static/js/main.e65696e7.js.map"
   },
   "entrypoints": [
-    "static/css/main.a6c35bb6.css",
-    "static/js/main.149347f1.js"
+    "static/css/main.9a259c22.css",
+    "static/js/main.e65696e7.js"
   ]
 }

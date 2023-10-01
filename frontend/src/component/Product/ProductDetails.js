@@ -41,7 +41,7 @@ const ProductDetails = () => {
       const [open, setOpen] = useState(false);
       const [rating, setRating] = useState(0);
       const [comment, setComment] = useState("");
-
+    const[month,setMonth]=useState(1);
 
 
       
@@ -60,7 +60,7 @@ const ProductDetails = () => {
   };
 
   const addToCartHandler = () => {
-    dispatch(addItemsToCart(id, quantity));
+    dispatch(addItemsToCart(id, quantity,month));
     alert.success("Item Added To Cart");
   };
 
@@ -107,7 +107,7 @@ const ProductDetails = () => {
 
             <Fragment>
               
-          <MetaData title={`${product.name} -- ECOMMERCE`} />
+          <MetaData title={`${product.name} -- RentalHub`} />
           <div className="ProductDetails">
             <div>
               <Carousel>
@@ -135,7 +135,34 @@ const ProductDetails = () => {
                 </span>
               </div>
               <div className="detailsBlock-3">
-                <h1>{`₹${product.price}`}</h1>
+                
+                <h1>{`₹${product.price*month}`}</h1>
+                <div style={{display:"flex"}}>
+               <h4>{month}-month</h4>
+               <select style={{marginLeft:"3px"}} value={month} onChange={e=>setMonth(e.target.value)}>
+               <option>
+                  1 
+                </option>
+                <option>
+                  2 
+                </option>
+                <option>
+                  3
+                </option>
+                <option>
+                  4
+                </option>
+                <option>
+                  5
+                </option>
+                <option>
+                  6
+                </option>
+                <option>
+                  7
+                </option>
+               </select>
+               </div>
                 <div className="detailsBlock-3-1">
                   <div className="detailsBlock-3-1-1">
                     <button onClick={decreaseQuantity}>-</button>

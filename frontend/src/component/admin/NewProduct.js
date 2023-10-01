@@ -9,10 +9,11 @@ import AccountTreeIcon from "@material-ui/icons/AccountTree";
 import DescriptionIcon from "@material-ui/icons/Description";
 import StorageIcon from "@material-ui/icons/Storage";
 import SpellcheckIcon from "@material-ui/icons/Spellcheck";
-import AttachMoneyIcon from "@material-ui/icons/AttachMoney";
+import CurrencyRupeeIcon from '@mui/icons-material/CurrencyRupee';
 import SideBar from "./Sidebar";
 import { NEW_PRODUCT_RESET } from "../../constants/productConstants";
 import { useNavigate } from "react-router-dom";
+import LocationCityIcon from '@mui/icons-material/LocationCity';
 
 const NewProduct = () => {
   const dispatch = useDispatch();
@@ -28,17 +29,24 @@ const NewProduct = () => {
   const [Stock, setStock] = useState(0);
   const [images, setImages] = useState([]);
   const [imagesPreview, setImagesPreview] = useState([]);
+  const [city, setCity] = useState("");
 
   const categories = [
-    "Laptop",
-    "Footwear",
-    "Bottom",
-    "Tops",
-    "Attire",
-    "Camera",
-    "SmartPhones",
-    "men",
-    "women"
+    "Videogame",
+    "Furniture",
+    "Two-wheeler",
+    "Four-Wheeler",
+    "digital-equipments",
+    "clothes",
+  ];
+
+  const cities = [
+    "jaipur",
+    "banglore",
+    "indore",
+    "nagpur",
+    "hyderabad",
+    "gwalior",
   ];
 
   useEffect(() => {
@@ -64,6 +72,7 @@ const NewProduct = () => {
     myForm.set("description", description);
     myForm.set("category", category);
     myForm.set("Stock", Stock);
+    myForm.set("city",city)
 
     images.forEach((image) => {
       myForm.append("images", image);
@@ -115,7 +124,7 @@ const NewProduct = () => {
               />
             </div>
             <div>
-              <AttachMoneyIcon />
+              <CurrencyRupeeIcon/>
               <input
                 type="number"
                 placeholder="Price"
@@ -147,6 +156,19 @@ const NewProduct = () => {
                 ))}
               </select>
             </div>
+         
+            <div>
+              <LocationCityIcon />
+              <select onChange={(e) => setCity(e.target.value)}>
+                <option value="">Choose City</option>
+                {cities.map((cate) => (
+                  <option key={cate} value={cate}>
+                    {cate}
+                  </option>
+                ))}
+              </select>
+            </div>
+          
 
             <div>
               <StorageIcon />

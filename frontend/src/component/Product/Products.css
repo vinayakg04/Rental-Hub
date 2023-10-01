@@ -86,6 +86,16 @@
   margin: 0.4vmax;
   cursor: pointer;
   transition: all 0.5s;
+  margin-bottom: 5px;
+}
+.city-link {
+  list-style: none;
+  color: rgba(0, 0, 0, 0.61);
+  font: 400 0.8vmax "Roboto";
+  margin: 0.4vmax;
+  cursor: pointer;
+  transition: all 0.5s;
+  margin-bottom: 5px;
 }
 .category-link:hover {
   color: tomato;
@@ -111,6 +121,9 @@
     }
    
     .category-link {
+      font: 400 1.8vmax "Roboto";
+    }
+    .city-link {
       font: 400 1.8vmax "Roboto";
     }
     .filterBox > fieldset > .RatingAbove{

@@ -52,6 +52,10 @@ const orderSchema = new mongoose.Schema({
         ref: "Product",
         required: true,
       },
+      month:{
+        type:Number,
+        required:false
+      }
     },
   ],
   user: {

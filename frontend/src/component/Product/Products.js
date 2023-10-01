@@ -12,18 +12,23 @@ import { useAlert } from "react-alert";
 import MetaData from "../layout/MetaData";
 
 const categories = [
-  "Laptop",
-  "Footwear",
-  "Bottom",
-  "Tops",
-  "Attire",
-  "Camera",
-  "SmartPhones",
-  "men",
-  "women"
+ "Videogame",
+ "Furniture",
+ "Two-wheeler",
+ "Four-Wheeler",
+ "digital-equipments",
+    "clothes",
+
 ];
 
-
+const cities = [
+  "jaipur",
+  "banglore",
+  "indore",
+  "nagpur",
+  "hyderabad",
+  "gwalior",
+];
 const Products = () => {
     const dispatch = useDispatch();
     let { keyword } = useParams(); 
@@ -32,6 +37,7 @@ const Products = () => {
     const [price, setPrice] = useState([0, 1500]);
     const [category, setCategory] = useState("");
     const [ratings, setRatings] = useState(0);
+    const[city,setCity]=useState("")
 
     const {
         products,
@@ -55,8 +61,8 @@ const Products = () => {
             alert.error(error);
             dispatch(clearErrors());
           }
-            dispatch(getProduct(keyword,currentPage,price,category,ratings))
-    },[dispatch,keyword,currentPage,price,error,alert,category,ratings])
+            dispatch(getProduct(keyword,currentPage,price,category,ratings,city))
+    },[dispatch,keyword,currentPage,price,error,alert,category,ratings,city])
 
 
     let count=filteredProductsCount;
@@ -66,7 +72,7 @@ const Products = () => {
           { 
                 loading? <Loader/>:
           <Fragment>
-            <MetaData title="Products--Alibaba" />
+            <MetaData title="Products" />
                <h2 className="productsHeading">Products</h2> 
                      <div className="products">
                         {products &&
@@ -97,6 +103,20 @@ const Products = () => {
                   onClick={() => setCategory(category)}
                 >
                   {category}
+                </li>
+              ))}
+            </ul>
+
+            
+<Typography>Cities</Typography>
+            <ul className="categoryBox">
+              {cities.map((city) => (
+                <li
+                  className="city-link"
+                  key={city}
+                  onClick={() => setCity(city)}
+                >
+                  {city}
                 </li>
               ))}
             </ul>

@@ -53,7 +53,7 @@ const Cart = () => {
       </div>
     ) : (
       <Fragment>
-         <MetaData title="Cart--Alibaba" />
+         <MetaData title="Cart" />
         <div className="cartPage">
           <div className="cartHeader">
             <p>Product</p>

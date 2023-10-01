@@ -17,17 +17,17 @@ const Footer = () => {
     </div>
 
     <div className="midFooter">
-      <h1>Alibaba.</h1>
+      <h1>RENTAL HUB</h1>
       <p>High Quality is our first priority</p>
 
-      <p>Copyrights 2021 &copy; MeRajivKumawat</p>
+      <p>Copyrights 2023 &copy; RENTALHUB</p>
     </div>
 
     <div className="rightFooter">
       <h4>Follow Us</h4>
-      <a href="https://www.instagram.com/alibaba.com_official/?hl=en" style={{display:"flex",alignItems:"center"}} ><InstagramIcon style={{padding:"5px"}}/> Instagram</a>
-      <a href="https://www.youtube.com/channel/UC8Alwi_O-7TqF-1xDHZr--Q" style={{display:"flex",alignItems:"center"}}><YouTubeIcon style={{padding:"5px"}}/>Youtube</a>
-      <a href="https://www.facebook.com/Alibaba.comGlobal/" style={{display:"flex",alignItems:"center"}}><FacebookIcon style={{padding:"5px"}}/> Facebook</a>
+      <a href="https://www.instagram.com/furlenco/" style={{display:"flex",alignItems:"center"}} ><InstagramIcon style={{padding:"5px"}}/> Instagram</a>
+      <a href="https://www.youtube.com/@FurlencoBengaluru/channels" style={{display:"flex",alignItems:"center"}}><YouTubeIcon style={{padding:"5px"}}/>Youtube</a>
+      <a href="" style={{display:"flex",alignItems:"center"}}><FacebookIcon style={{padding:"5px"}}/> Facebook</a>
     </div>
   </footer>
   )

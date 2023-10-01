@@ -30,8 +30,8 @@ const Home = () => {
        loading ? <Loader/>:  <Fragment>
        <MetaData title="Alibaba.com"/>
               <div className="banner">
-                <p>Welcome to Alibaba-Ecommerce</p>
-                <h1>FIND AMAZING PRODUCTS BELOW</h1>
+                {/* <p>Welcome to RENTALHUB</p>
+                <h1>FIND AMAZING PRODUCTS BELOW</h1> */}
     
                 <a href="#container">
                   <button>

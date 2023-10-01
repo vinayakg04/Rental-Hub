@@ -294,3 +294,30 @@ exports.deleteReview = catchAsyncErrors(async (req, res, next) => {
   
 
 })
+
+
+
+
+ // Update the 'rent' field based on the specified duration
+ exports.updateRent = catchAsyncErrors(async (req, res) => {
+  const productId = req.params.id;
+  const { duration } = req.body;
+
+    const product = await Product.findById(productId);
+
+    if (!product) {
+        return next(new ErrorHandler("product not found",404))
+    }
+
+    const calculatedRent = duration * product.price;
+
+    // Update the 'rent' field of the existing 'product' object
+    product.price = calculatedRent;
+
+    // Save the updated 'product' object
+    await product.save();
+
+    res.status(200).json({ success: true, product });
+
+});
+

@@ -6,6 +6,7 @@ const bodyParser=require("body-parser")
 const fileupload=require("express-fileupload")
 const dotenv=require("dotenv")
 const path=require("path");
+// const cors=require("cors")
 
 if(process.env.NODE_ENV){
    dotenv.config()
@@ -41,7 +42,12 @@ app.use(express.static(path.join(__dirname,"../frontend/build")))
 app.get("*",(req,res)=>{
      res.sendFile(path.resolve(__dirname,"../frontend/build/index.html"))
 })
+
+
 // middleware for errors 
 app.use(errorMiddleware);
+// app.use(cors())
 
 module.exports = app;
+
+
