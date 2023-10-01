@@ -25,27 +25,39 @@ Rental Hub offers an extensive selection of rental categories, making it easy fo
 
 #### Signup Page
 
-![2](https://github.com/IndieFoods/frontend/blob/main/src/Assets/ReadmeAssets/2.png)
+![2](https://github.com/vinayakg04/Rental-Hub/blob/main/frontend/src/Images/4016.PNG)
 
 #### User Home Page
 
-![3](https://github.com/IndieFoods/frontend/blob/main/src/Assets/ReadmeAssets/3.png)
+![3](https://github.com/vinayakg04/Rental-Hub/blob/main/frontend/src/Images/4027.PNG)
 
 #### User Profile Page
 
-![4](https://github.com/IndieFoods/frontend/blob/main/src/Assets/ReadmeAssets/4.png)
+![4](https://github.com/vinayakg04/Rental-Hub/blob/main/frontend/src/Images/4017.PNG)
 
-#### Food Details Page
+#### Product Details Page
 
-![5](https://github.com/IndieFoods/frontend/blob/main/src/Assets/ReadmeAssets/5.png)
+![5](https://github.com/vinayakg04/Rental-Hub/blob/main/frontend/src/Images/4019.PNG)
 
-#### Chef Home Page
+#### About Us Page
 
-![6](https://github.com/IndieFoods/frontend/blob/main/src/Assets/ReadmeAssets/6.png)
+![7](https://github.com/vinayakg04/Rental-Hub/blob/main/frontend/src/Images/4018.PNG)
 
-#### Chef Profile Page
+#### Admin Dashboard
 
-![7](https://github.com/IndieFoods/frontend/blob/main/src/Assets/ReadmeAssets/7.png)
+![6](https://github.com/vinayakg04/Rental-Hub/blob/main/frontend/src/Images/4023.PNG)
+
+#### Admin All Orders Page
+
+![7](https://github.com/vinayakg04/Rental-Hub/blob/main/frontend/src/Images/4025.PNG)
+
+#### Admin Products Page
+
+![7](https://github.com/vinayakg04/Rental-Hub/blob/main/frontend/src/Images/4026.PNG)
+
+#### Admin All Orders
+
+![7](https://github.com/vinayakg04/Rental-Hub/blob/main/frontend/src/Images/4025.PNG)
 
 ## Getting Started
 
