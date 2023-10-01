@@ -21,7 +21,7 @@ Rental Hub offers an extensive selection of rental categories, making it easy fo
 
 #### Landing Page
 
-![1](https://github.com/Rental-Hub/frontend/blob/main/src/Assets/4011.png)
+![1](https://github.com/vinayakg04/Rental-Hub/blob/main/frontend/src/Images/4011.PNG)
 
 #### Signup Page
 
