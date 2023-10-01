@@ -58,20 +58,24 @@ Rental Hub offers an extensive selection of rental categories, making it easy fo
 
 4.Clone the repository Rental-Hub
 Go inside Rental-Hub/
+
 ```sh
 Run npm install 
 ```
 
-
 Go inside Rental-Hub/frontend
+
 ```sh
 Run npm install
 ```
 
 To start the project on localhost Go inside Rental-Hub/
+
 ```sh
 Run nodemon
 ```
+
+
 5. Environmental variables can be set up in a .env file. 
    PORT JWT_SECRET JWT_EXPIRE COOKIE_EXPIRE DB_URL SMPT_SERVICE SMPT_MAIL SMPT_PASSWORD SMPT_HOST SMPT_PORT FRONTEND_URL CLOUDINARY_NAME CLOUDINARY_API_KEY CLOUDINARY_SECRET_KEY 
    STRIPE_PUBLIC_KEY STRIPE_SECRET_KEY
