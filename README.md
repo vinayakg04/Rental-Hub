@@ -5,7 +5,10 @@ Introduction Welcome to Rental Hub, your one-stop destination for all your renta
 What does it do? Rental Hub offers an extensive selection of rental categories, making it easy for users to find what they need, Whether it be Furniture, Two wheeler, Four Wheeler or telivison We have got all covered.
 
 Hostel URL
+https://rentalhub.onrender.com/
 
-Development Setup Frontend Clone the repository and run npm install to install the necessary dependencies. Run npm start to get the server up and running.
+Development Setup 
+
+Frontend Clone the repository and run npm install to install the necessary dependencies. Run npm start to get the server up and running.
 
 Backend
