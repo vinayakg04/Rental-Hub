@@ -1,6 +1,6 @@
-# Rental-Hub
+Rental Hub
 
-## Introduction
+Introduction
 Welcome to Rental Hub, your one-stop destination for all your rental needs. Rental Hub is a user-friendly online platform that allows users to conveniently rent a wide range of items, including furniture, televisions, two-wheelers, four-wheelers, clothes, and video games. Whether you're moving into a new place, need a vehicle for a weekend getaway, or simply want to try out the latest gaming console, Rental Hub has you covered.
 
 
