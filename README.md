@@ -13,9 +13,43 @@ RentalHub is your one-stop destination for all your rental needs. Rental Hub is 
 
 <li>
 Rental Hub offers an extensive selection of rental categories, making it easy for users to find what they need, Whether it be Furniture, Two wheeler, Four Wheeler or telivison We have got all covered.
-<li>
 
 </ul>
+
+## Getting Started
+
+1. Fork the repository
+2. Clone the repository
+
+
+
+3. Open the folder containing the cloned repository
+
+4.Clone the repository Rental-Hub
+Go inside Rental-Hub/
+
+```sh
+Run npm install 
+```
+
+Go inside Rental-Hub/frontend
+
+```sh
+Run npm install
+```
+
+To start the project on localhost Go inside Rental-Hub/
+
+```sh
+Run nodemon
+```
+
+
+5. Environmental variables can be set up in a .env file. 
+   PORT JWT_SECRET JWT_EXPIRE COOKIE_EXPIRE DB_URL SMPT_SERVICE SMPT_MAIL SMPT_PASSWORD SMPT_HOST SMPT_PORT FRONTEND_URL CLOUDINARY_NAME CLOUDINARY_API_KEY CLOUDINARY_SECRET_KEY 
+   STRIPE_PUBLIC_KEY STRIPE_SECRET_KEY
+
+
 
 ## Screenshots
 
@@ -58,39 +92,6 @@ Rental Hub offers an extensive selection of rental categories, making it easy fo
 #### Admin All Orders
 
 ![7](https://github.com/vinayakg04/Rental-Hub/blob/main/frontend/src/Images/4025.PNG)
-
-## Getting Started
-
-1. Fork the repository
-2. Clone the repository
-
-
-
-3. Open the folder containing the cloned repository
-
-4.Clone the repository Rental-Hub
-Go inside Rental-Hub/
-
-```sh
-Run npm install 
-```
-
-Go inside Rental-Hub/frontend
-
-```sh
-Run npm install
-```
-
-To start the project on localhost Go inside Rental-Hub/
-
-```sh
-Run nodemon
-```
-
-
-5. Environmental variables can be set up in a .env file. 
-   PORT JWT_SECRET JWT_EXPIRE COOKIE_EXPIRE DB_URL SMPT_SERVICE SMPT_MAIL SMPT_PASSWORD SMPT_HOST SMPT_PORT FRONTEND_URL CLOUDINARY_NAME CLOUDINARY_API_KEY CLOUDINARY_SECRET_KEY 
-   STRIPE_PUBLIC_KEY STRIPE_SECRET_KEY
 
 
 
