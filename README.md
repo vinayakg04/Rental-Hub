@@ -29,19 +29,19 @@ Rental Hub offers an extensive selection of rental categories, making it easy fo
 Go inside Rental-Hub/
 
 ```sh
-Run npm install 
+npm install 
 ```
 
 Go inside Rental-Hub/frontend
 
 ```sh
-Run npm install
+npm install
 ```
 
 To start the project on localhost Go inside Rental-Hub/
 
 ```sh
-Run nodemon
+nodemon
 ```
 
 
