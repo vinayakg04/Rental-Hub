@@ -49,6 +49,10 @@ nodemon
    PORT JWT_SECRET JWT_EXPIRE COOKIE_EXPIRE DB_URL SMPT_SERVICE SMPT_MAIL SMPT_PASSWORD SMPT_HOST SMPT_PORT FRONTEND_URL CLOUDINARY_NAME CLOUDINARY_API_KEY CLOUDINARY_SECRET_KEY 
    STRIPE_PUBLIC_KEY STRIPE_SECRET_KEY
 
+6.For accessing Admin Dashboard login using this email and password
+  Use email- adminuser@gmail.com
+  Use password- 123456789
+
 
 
 ## Screenshots
